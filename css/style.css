@@ -1,0 +1,43 @@
+:root{
+  --primaryColor: #f15025;
+  --cl-secundary: purple;
+  --mainTransition: all 1s linear;
+  --mainSpacing: 5px;
+}
+
+h1{
+  color: var(--primaryColor);
+}
+h2{
+  color: var(--primaryColor);
+}
+h3{
+  color: var(--primaryColor);
+  transition: var(--mainTransition);
+}
+
+p{
+  letter-spacing: var(--mainSpacing);
+  transition: var(--mainTransition);
+}
+
+h3:hover{
+  color: var(--cl-secundary);
+}
+
+p:hover{
+  color: var(--cl-secundary);
+}
+
+div {
+  --primaryRed: red;
+}
+
+.main-text{
+  color: var(--primaryRed);
+}
+
+.fa-home{
+  color: blue;
+  text-shadow: 3px 3px 0px rgba(154, 177, 147, 0.91);
+}
